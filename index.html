@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Todo List</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Todo List</h1>
+
+      <div class="main">
+        <div class="left">
+          <div id="task-container"></div>
+        </div>
+  
+        <div class="rigth">
+          <form id="task-form">
+            <label for="task-title">Заголовок:</label>
+            <input type="text" id="task-title" required />
+            <br />
+            <label for="task-description">Описание</label>
+            <textarea id="task-description" required></textarea>
+            <br />
+            <button type="submit">Добавить</button>
+          </form>
+        </div>
+      </div>
+			
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
